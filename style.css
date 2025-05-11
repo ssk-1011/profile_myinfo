@@ -1,0 +1,204 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0px;
+  padding-top: 80px; 
+}
+
+/*header section starting*/
+
+.nav-logo{
+  height: 40px;
+  width: 40px;
+   border-radius: 50%;
+  object-fit: cover;
+}
+
+
+/*profile section starting*/
+.profil-bg{
+  background-image: url("https://img.freepik.com/free-photo/glasses-lie-laptop-reflecting-light-from-screen-dark_169016-53056.jpg?");
+  background-size: cover;
+
+}
+.profile-image{
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+}
+.content{
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.profile-card{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.profile-name{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 40px;
+
+}
+
+/*about section css*/
+.about-container {
+   width: 100%;
+  padding: 50px 20px;
+  background-color: #dceee0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-content p{
+  font-size: 18px;
+  color: #333;
+}
+
+.about-content h1{
+   color: #a74828;
+  margin-bottom: 20px;
+}
+
+/*skill section*/
+.skill-content{
+  list-style-type: none;
+}
+.skill-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  
+}
+.skill-card{
+  background-color: #3b3939;
+  width: 100%;
+}
+
+.skill-icon:hover  {
+  transform: scale(1.1);
+}
+
+.skill-card h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.skill-card p {
+  font-size: 1rem;
+  color: #e0e0e0;
+}
+
+
+/*project section*/
+.project-card{
+   background-color: #3b3939;
+  width: 100%;
+}
+.project-icon{
+  
+    width: 200px;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 100px;
+}
+.project-icon:hover  {
+  transform: scale(1.1);
+}
+.project-card h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #e0e0e0;
+}
+.project-contant{
+  list-style-type: none;
+}
+.link-head{
+  color: #ffffff;
+}
+
+.style-button{
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid light;
+  cursor: pointer;
+}
+.style-button :hover{
+  color: #fce1e1;
+  background-color: rgb(217, 48, 175);
+}
+
+.add-skill-card{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-card-control{
+width: 60%;
+}
+
+
+.form-card-none{
+  display: none;
+}
+.errow-msg{
+  color: red;
+  font-size: 20px;
+}
+.head2{
+font-size: 25px;
+  margin-bottom: 10px;
+}
+.para2{
+  font-size: 1rem;
+  color: #e0e0e0;
+}
+
+/*contact section*/
+.contact-section{
+  background-color: rgb(65, 66, 66);
+  
+}
+
+.icon-color{
+  
+  background-color: #ffffff;
+  font-weight: bold;
+  font-size: 40px;
+}
+.insta{
+  height: 40px;
+  width: 40px;
+
+  
+}
+
+.map-link{
+color: #ffffff;
+background-color: rgb(116, 206, 158);
+font-size: 20px;
+}
+
+
